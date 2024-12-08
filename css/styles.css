@@ -4,6 +4,10 @@ body {
   background-color: #ffffff;
 }
 
+img {
+  display: block;
+}
+
 ul {
   list-style: none;
 }
