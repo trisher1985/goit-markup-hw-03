@@ -354,13 +354,10 @@ button {
 
 .footer {
   padding: 100px 0;
-  background-color: #2e2f42;
-  
+  background: #2e2f42;
 }
 
 .footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -368,7 +365,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo:hover,
