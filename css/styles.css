@@ -255,10 +255,10 @@ button {
   display: block;
 }
 
-.ourteam-member-container {
+/* .ourteam-member-container {
   padding: 32px 0;
   text-align: center;
-}
+} */
 
 /* Контейнер для імені працівника та посади */
 .ourteam-member-info {
