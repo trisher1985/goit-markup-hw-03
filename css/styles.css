@@ -358,6 +358,12 @@ button {
   padding: 100px 0;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px; /* Задайте максимальну ширину для контейнера */
+  margin: 0 auto; /* Центрування контейнера */
+  padding: 0 20px; /* Відступи зліва і справа */
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
