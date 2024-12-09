@@ -230,7 +230,7 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px; /* Додаємо відступ між заголовком і наступним елементом */
+  margin-bottom: 72px; /* Відступ між заголовком і наступним елементом */
 }
 
 .ourteam-list {
@@ -265,15 +265,19 @@ button {
   padding: 32px 0;
 }
 
+.ourteam-member-name,
+.ourteam-member-position {
+  text-align: center; /* Вирівнювання тексту по центру */
+  text-transform: lowercase; /* Всі літери маленькі */
+}
+
 .ourteam-member-name {
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
-  text-transform: lowercase; /* Всі літери маленькі */
 }
 
 .ourteam-member-position {
@@ -281,20 +285,21 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #1f2030;
-  text-transform: lowercase; /* Всі літери маленькі */
 }
 
+/* Відступ між заголовком і параграфом */
+.ourteam-member-info h3 {
+  margin-bottom: 8px;
+}
+
+/* Заголовки та параграфи всіх членів команди */
 .ourteam-member-info h3,
 .ourteam-member-info p {
   text-align: center; /* Вирівнювання тексту по центру */
   text-transform: lowercase; /* Всі літери маленькі */
 }
 
-.ourteam-member-info h3 {
-  margin-bottom: 8px; /* Відступ між заголовком і параграфом */
-}
 
 /*section 3; "четверта секція" у ДЗ*/
 
