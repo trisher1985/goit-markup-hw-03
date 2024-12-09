@@ -120,7 +120,7 @@ button {
   color: #404bbf;
 }
 
-/*section "hero image"*/
+/*section "hero image"; "перша секція" у ДЗ*/
 
 .main {
 }
@@ -163,12 +163,21 @@ button {
   background-color: #404bbf;
 }
 
-/*section 1*/
+/*section 1; "друга секція" у ДЗ*/
 
 .features {
+  padding: 120px 0;
 }
 
 .features-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -179,9 +188,15 @@ button {
 }
 
 .features-list {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-item-title {
@@ -190,6 +205,7 @@ button {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -199,7 +215,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-/*section 2*/
+/*section 2; "третя секція" у ДЗ*/
 
 .ourteam {
   background: #f4f4fd;
@@ -242,7 +258,7 @@ button {
   text-align: center;
 }
 
-/*section 3*/
+/*section 3; "четверта секція" у ДЗ*/
 
 .ourportfolio {
 }
