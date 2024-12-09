@@ -219,6 +219,7 @@ button {
 
 .ourteam {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .ourteam-title {
@@ -232,18 +233,36 @@ button {
 }
 
 .ourteam-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .ourteam-member {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
   background-color: #ffffff;
 }
 
 .team-member-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ourteam-member-container {
+  padding: 32px 0;
+  text-align: center;
 }
 
 .ourteam-member-name {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
+  margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
@@ -256,6 +275,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #1f2030;
 }
 
 /*section 3; "четверта секція" у ДЗ*/
