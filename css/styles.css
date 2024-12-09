@@ -278,6 +278,28 @@ button {
   color: #1f2030;
 }
 
+/* Додано: виправлення відповідно до вимог */
+.ourteam-title,
+.ourteam-member-name,
+.ourteam-member-position {
+  text-transform: lowercase; /* Усі літери маленькими */
+}
+
+.ourteam-member-name,
+.ourteam-member-position {
+  text-align: center;
+}
+
+.ourteam-member-container,
+.ourteam-member {
+  display: block;
+  gap: 24px;
+}
+
+.ourteam-member-container {
+  padding: 32px 0;
+}
+
 /*section 3; "четверта секція" у ДЗ*/
 
 .ourportfolio {
